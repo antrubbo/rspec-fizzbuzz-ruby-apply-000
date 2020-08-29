@@ -12,7 +12,3 @@ def fizzbuzz(num)
     puts nil
   end
 end
-
-fizz_3 == "Fizz"
-fizz_5 == "Buzz"
-fizz_15 == "FizzBuzz"
