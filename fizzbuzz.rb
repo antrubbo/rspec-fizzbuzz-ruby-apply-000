@@ -4,11 +4,9 @@
 def fizzbuzz(num)
   if num / 3
     puts "Fizz"
-  end
-  if num / 5
+  elsif num / 5
     puts "Buzz"
-  end
-  if num / 3 && num / 5
+  elsif num / 3 && num / 5
     puts "FizzBuzz"
   else
     puts nil
