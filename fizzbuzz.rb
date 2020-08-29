@@ -6,7 +6,7 @@ def fizzbuzz(num)
     puts "Fizz"
   elsif num / 5
     puts "Buzz"
-  elsif num / 3 && num / 5
+  elsif num / 3 && 5
     puts "FizzBuzz"
   else
     puts nil
