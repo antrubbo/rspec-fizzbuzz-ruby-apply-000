@@ -3,12 +3,12 @@
 
 def fizzbuzz(num)
   if num / 3
-    puts "Fizz"
+    return "Fizz"
   elsif num / 5
-    puts "Buzz"
-  elsif num / 3 && 5
-    puts "FizzBuzz"
+    return "Buzz"
+  elsif num / 3 && num / 5
+    return "FizzBuzz"
   else
-    puts nil
+    return nil
   end
 end
