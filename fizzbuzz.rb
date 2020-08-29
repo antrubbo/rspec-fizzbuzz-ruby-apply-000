@@ -4,10 +4,13 @@
 def fizzbuzz(num)
   if num / 3
     puts "Fizz"
+  end
   if num / 5
     puts "Buzz"
+  end
   if num / 3 && num / 5
     puts "FizzBuzz"
+  end
   else 
     puts nil
   end
