@@ -2,14 +2,17 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if num/3
+  if num / 3
     puts "Fizz"
-  elsif num/5
+  elsif num / 5
     puts "Buzz"
-  elsif num/3 && num/5
+  elsif num / 3 && num / 5
     puts "FizzBuzz"
   else 
     puts nil
   end
 end
 
+fizz_3 = "Fizz"
+fizz_5 = "Buzz"
+fizz_15 = "FizzBuzz"
